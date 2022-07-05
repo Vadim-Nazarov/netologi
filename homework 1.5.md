@@ -29,6 +29,7 @@ ps -aux | grep ^root >> user_root_ps
 # задание 4 
 у разных пользователей запущены различные процессы ,поэтому файлы вывода отличаются
 
-ps -aux | grep ^2 >> user_2_ps
+ps -aux | grep  2> user_2_ps
 
-ps -aux | grep ^5 >> user_5_ps
+ps -aux | grep  5> user_5_ps
+
