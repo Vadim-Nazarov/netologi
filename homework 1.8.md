@@ -20,3 +20,10 @@
 ![изображение](https://user-images.githubusercontent.com/107613708/179510231-7cea4e06-d396-4f3e-91e9-4491830e21e2.png)
 
 ![изображение](https://user-images.githubusercontent.com/107613708/179510512-0c1b83bd-7f33-473c-bf6a-537e3c50fa54.png)
+
+# Задание 4
+
+![изображение](https://user-images.githubusercontent.com/107613708/179512967-f992b7e3-d623-4923-b8bb-b29148fcdbba.png)
+
+
+
