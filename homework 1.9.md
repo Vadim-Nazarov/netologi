@@ -30,3 +30,12 @@
 - Количество inodes в определенном каталоге ls -lai /...
 - Статистика Inodes sudo df -ih /
 - В каких файловых системах не может возникнуть проблемы нехватки inodes? -  Btrfs - она основана принципе структур B-деревьев и копировании при записи
+
+# Задание 4
+
+![изображение](https://user-images.githubusercontent.com/107613708/179934237-40e13877-d50d-4b25-9a81-7084afdd167a.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/179937838-90ebd7cd-60cd-4bd8-86e3-edb35ed6cd47.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/179937888-df77f8b1-0ae2-4901-818c-a136c01c6641.png)
+
