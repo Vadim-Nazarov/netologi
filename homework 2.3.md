@@ -37,6 +37,9 @@
 
 # Задание 5
 
+![изображение](https://user-images.githubusercontent.com/107613708/183370140-f13c5540-e1fd-4ae8-a60f-4a51c77ef95f.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/183370453-e76fa8aa-48d5-4f99-8111-83ff973a21dd.png)
 
 
 
