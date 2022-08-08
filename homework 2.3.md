@@ -25,4 +25,21 @@
  
  sudo apt install htop
  
+ ![изображение](https://user-images.githubusercontent.com/107613708/183360969-59c7fc25-5a28-418e-a31c-6dd5bb150ccc.png)
+
+# Задание 4
+
+![изображение](https://user-images.githubusercontent.com/107613708/183364554-50fddbf5-9fbb-44f8-a5c3-51981d3593be.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/183364700-ce6ebc4c-2382-413f-9a3c-9861a21e2f7d.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/183365685-fd5d02bd-b7c8-4abd-b791-07aa75fe6c6d.png)
+
+# Задание 5
+
+
+
+
+
+
  
