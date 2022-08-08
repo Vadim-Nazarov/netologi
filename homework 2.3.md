@@ -41,6 +41,12 @@
 
 ![изображение](https://user-images.githubusercontent.com/107613708/183370453-e76fa8aa-48d5-4f99-8111-83ff973a21dd.png)
 
+# Задание 6
+
+Pacman  - пакетный менеджер системы Arch Linux и его родственных дистрибутивов
+Portage – пакетный менеджер  Gentoo 
+
+
 
 
 
