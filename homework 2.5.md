@@ -18,3 +18,11 @@ shadow - чтение запись создателем, чтение групп
 
 # Задание 4.
 
+![изображение](https://user-images.githubusercontent.com/107613708/185914856-1bbb595f-ec50-481d-81a8-926d182eec48.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/185914918-bcde2663-14d5-4e46-9ecf-58610552121e.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/185914992-5f2dbc8d-0132-48db-9622-f930862ca2b7.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/185915061-c8681a17-ddec-48c2-8178-f4517c8e4e25.png)
+
