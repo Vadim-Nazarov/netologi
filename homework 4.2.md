@@ -30,4 +30,5 @@ Apple, Inc.
 
 # Задание 8.
 
+![изображение](https://user-images.githubusercontent.com/107613708/188631202-9768ab92-1396-422f-9f66-77e3133f5108.png)
 
