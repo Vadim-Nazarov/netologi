@@ -25,6 +25,7 @@ Apple, Inc.
 
 # Задание 7.
 
+![изображение](https://user-images.githubusercontent.com/107613708/188630572-f6bf2bcb-949c-4a02-be78-011fb548d0f4.png)
 
 
 # Задание 8.
