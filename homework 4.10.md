@@ -21,7 +21,7 @@
 
 dhcpd.conf
 
-option domain-name "netology.local";
+option domain-name "neto.local";
 
 option domain-name-servers 178.21.0.3, 178.21.0.5;
 
@@ -37,7 +37,7 @@ subnet 178.21.0.0 netmask 255.255.255.0 {
 
       option subnet-mask 255.255.255.0;
 
-      option domain-search "netology.local";
+      option domain-search "neto.local";
 
       option domain-name-servers 178.21.0.3;
 
