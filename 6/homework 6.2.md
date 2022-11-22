@@ -24,6 +24,10 @@
 
 # Задание 4
 
+![изображение](https://user-images.githubusercontent.com/107613708/203298170-28db1998-ee95-42fa-ae0b-61ab8bc3ffff.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/203298337-1bface2b-5400-4713-b6e5-b93c3f9f3170.png)
+
 
 
 
