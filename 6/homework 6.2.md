@@ -7,3 +7,7 @@
 # Задание 2
 
 ![изображение](https://user-images.githubusercontent.com/107613708/203260509-26d30dcf-d830-407b-a457-306aeac2e83f.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/203265130-d6c1def9-f9f3-4335-8ef7-478e6b169477.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/203276799-1f53d771-e6c8-48a8-9f6d-a697838128f8.png)
