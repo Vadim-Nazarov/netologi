@@ -11,3 +11,19 @@
 ![изображение](https://user-images.githubusercontent.com/107613708/203265130-d6c1def9-f9f3-4335-8ef7-478e6b169477.png)
 
 ![изображение](https://user-images.githubusercontent.com/107613708/203276799-1f53d771-e6c8-48a8-9f6d-a697838128f8.png)
+
+# Задание 3
+
+![изображение](https://user-images.githubusercontent.com/107613708/203283829-4740df44-7f02-4916-ab1d-50d85686970c.png)
+
+при запуске сталкнулся с такой проблемой
+
+![изображение](https://user-images.githubusercontent.com/107613708/203297731-6b605f51-2a3b-43d3-a12a-422da472f7b7.png)
+
+просьба помочь с советом по решению
+
+# Задание 4
+
+
+
+
