@@ -13,14 +13,13 @@
 ![изображение](https://user-images.githubusercontent.com/107613708/203276799-1f53d771-e6c8-48a8-9f6d-a697838128f8.png)
 
 # Задание 3
+Поперло
 
-![изображение](https://user-images.githubusercontent.com/107613708/203283829-4740df44-7f02-4916-ab1d-50d85686970c.png)
+![изображение](https://user-images.githubusercontent.com/107613708/203535744-fb4a1f0c-6a17-4b7c-9919-909f88cbf756.png)
 
-при запуске сталкнулся с такой проблемой
+![изображение](https://user-images.githubusercontent.com/107613708/203535883-0f14eb2a-cf40-4f01-bf3d-33e59bf2c044.png)
 
-![изображение](https://user-images.githubusercontent.com/107613708/203297731-6b605f51-2a3b-43d3-a12a-422da472f7b7.png)
 
-просьба помочь с советом по решению
 
 # Задание 4
 
