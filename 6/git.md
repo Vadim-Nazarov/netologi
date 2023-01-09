@@ -4,7 +4,7 @@ https://github.com/Vadim-Nazarov/home-neto/commit/d162e3dfa257e8d464581fca904ab6
 
 # Задание 2
 
-https://github.com/Vadim-Nazarov/home-neto/commit/e8d22232bc2ce506153dd7055f6b0b666c87a563
+https://github.com/Vadim-Nazarov/home-neto/commit/052c47e0dab69bda3dbc2cc5209274ccf94f8eef
 
 # Задание 3
 
