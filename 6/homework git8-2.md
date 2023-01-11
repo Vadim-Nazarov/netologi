@@ -14,19 +14,19 @@
 
 ![изображение](https://user-images.githubusercontent.com/107613708/211819949-7fa9ec49-46d5-45a5-8458-931544344619.png)
 
-pipeline {
-    agent any
-    stages {
-        stage('Git') {
-            steps {git 'https://github.com/Vadim-Nazarov/git83.git'}
-        }    
-        stage('Build') {
-            steps {
-                sh 'docker build  .'
-            }
+        pipeline {
+            agent any
+            stages {
+                stage('Git') {
+                    steps {git 'https://github.com/Vadim-Nazarov/git83.git'}
+                }    
+                stage('Build') {
+                   steps {
+                      sh 'docker build  .'
+                  }
+               }
+           }
         }
-    }
-}
 
 
 
