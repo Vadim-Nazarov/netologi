@@ -30,8 +30,14 @@
 
 # Задание 3
 
-![изображение](https://user-images.githubusercontent.com/107613708/212040354-d8fa7fa0-d21c-444d-985c-b663c9145ec8.png)
+![изображение](https://user-images.githubusercontent.com/107613708/212318641-0e6717c1-236e-4da8-b9bd-8e46e9ae8968.png)
 
-Получилось запустить докер контейнер, но почему то по 8081 порту на сайт вебку не заходит, не пойму в чем причина(
+![изображение](https://user-images.githubusercontent.com/107613708/212318695-29ee1b77-0e1f-4da1-ba93-912d965e3f81.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/212318751-60412f52-8f58-4195-b745-78e81ab6d04e.png)
+
+
+
+
 
 
