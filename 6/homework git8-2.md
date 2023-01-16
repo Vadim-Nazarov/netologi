@@ -10,23 +10,25 @@
 
 # Задание 2
 
-![изображение](https://user-images.githubusercontent.com/107613708/211819879-c00de6cf-f238-4d88-a9b7-97cee705c661.png)
+![изображение](https://user-images.githubusercontent.com/107613708/212613464-40c73829-7185-483e-9d90-95dbd341322c.png)
 
-![изображение](https://user-images.githubusercontent.com/107613708/211819949-7fa9ec49-46d5-45a5-8458-931544344619.png)
-
-        pipeline {
-            agent any
-            stages {
-                stage('Git') {
-                    steps {git 'https://github.com/Vadim-Nazarov/git83.git'}
-                }    
-                stage('Build') {
-                   steps {
-                      sh 'docker build  .'
-                  }
-               }
-           }
+                pipeline {
+                 agent any
+                 stages {
+                     stage('Git') {
+                         steps {git 'https://github.com/Vadim-Nazarov/git83.git'}
+                     }    
+                     stage('Test') {
+                          steps {sh '/usr/local/go/bin/go test .'}
+                     }
+                     stage('Build') {
+                         steps {sh 'docker build . -t ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER'}
+                    }    
+                }
         }
+
+![изображение](https://user-images.githubusercontent.com/107613708/212613655-74beb98e-05b6-4989-99d4-5d14e4130b87.png)
+
 
 # Задание 3
 
