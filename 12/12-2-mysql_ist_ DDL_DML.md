@@ -36,6 +36,16 @@ CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'admin1';
 
 ![изображение](https://user-images.githubusercontent.com/107613708/233343800-1bb40815-61a1-421a-8949-0066b07e4846.png)
 
+![изображение](https://user-images.githubusercontent.com/107613708/233356374-4085b86f-2ce0-459f-8787-6341ac6d6966.png)
+
+![изображение](https://user-images.githubusercontent.com/107613708/233356784-36bce072-7024-4343-aed8-b0425488bee8.png)
+
+# Задание 2
+Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
+
+![изображение](https://user-images.githubusercontent.com/107613708/233361693-1a7095ed-f697-4778-80ad-b8cd86a3f3de.png)
+
+
 
 
 
