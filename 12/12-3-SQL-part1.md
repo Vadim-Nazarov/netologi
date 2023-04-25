@@ -48,3 +48,13 @@
     select lower(replace (first_name, 'LL', 'pp' )) fst, lower(replace (last_name , 'LL', 'pp' )) lnam
     from	customer 
     where first_name = 'Kelly' or first_name = 'Willie'
+    
+# Задание 5
+Выведите Email каждого покупателя, разделив значение Email на 2 отдельных колонки: в первой колонке должно быть значение, указанное до @, во второй значение, указанное после @.
+
+
+        select email, substring_index(email , '@', 1), substring_index(email , '@', -1)
+        from customer;
+
+![изображение](https://user-images.githubusercontent.com/107613708/234188427-73a1851a-53a9-4c8d-8ca5-ad67f16efd62.png)
+
