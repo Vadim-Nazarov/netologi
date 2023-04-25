@@ -12,10 +12,11 @@
 
         select payment_id, payment_date, amount
         from payment 
-        where payment_date between cast('2005-06-15' as date) and cast('2005-06-19' as date) and amount > 10.00
+        where payment_date between '2005-06-15 00:00:00' and '2005-06-19 00:00:00' and amount > 10.00
         order by payment_date desc 
     
-![изображение](https://user-images.githubusercontent.com/107613708/234006043-9256a6c2-8064-4dd1-99f8-fba8b3485c56.png)
+![изображение](https://user-images.githubusercontent.com/107613708/234187961-3285287b-df45-4f74-82a6-513e89af7592.png)
+
 
 
 # Задание 3
