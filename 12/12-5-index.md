@@ -30,7 +30,7 @@
     from payment p, customer c
     where date(p.payment_date) = '2005-07-30' and p.customer_id = c.customer_id 
     
-- Результат до - actual time  - 5.715 s
-- Результат после - actual time  - 9 ms
+- Результат до - 5.715 s
+- Результат после -  9 ms
  
     
