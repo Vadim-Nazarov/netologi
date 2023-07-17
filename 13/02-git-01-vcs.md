@@ -81,6 +81,7 @@
 Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит).
 ---
 Создайте файлы will_be_deleted.txt (с текстом will_be_deleted) и will_be_moved.txt (с текстом will_be_moved) и закоммите их с комментарием Prepare to delete and move
+
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/b272c5aa-c68e-4513-a3ce-c7d95d976c35)
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/36a94f57-c68e-4e03-ac26-3d39c5449b36)
