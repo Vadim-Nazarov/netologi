@@ -97,10 +97,11 @@
 ---
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/d12d4a26-64f3-4b07-bf63-a05ae8b9940e)
 
-Закоммитьте результат работы с комментарием Moved and deleted.
+Отправка изменений в репозиторий
 ---
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/411f15b8-6f24-407b-93ce-ce45e85bd699)
 
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/73fee78c-f3bc-40d8-b4af-4e83713bef0f)
 
 
 
