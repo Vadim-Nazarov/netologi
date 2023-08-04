@@ -119,6 +119,9 @@
 
 CREATE INDEX ON orders ((lower(title)));
 
+# Добавить UNIQUE
+
+CREATE TABLE public.orders_2 (id integer, title character varying(80) UNIQUE, price integer);
 
 
 
