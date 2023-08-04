@@ -88,6 +88,40 @@
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/5e78f922-e60b-479a-a857-4bfeaaac48f2)
 
 
+# Задача 3
+
+Архитектор и администратор БД выяснили, что ваша таблица orders разрослась до невиданных размеров и поиск по ней занимает долгое время. Вам как успешному выпускнику курсов DevOps в Нетологии предложили провести разбиение таблицы на 2: шардировать на orders_1 - price>499 и orders_2 - price<=499.
+
+Предложите SQL-транзакцию для проведения этой операции.
+
+Можно ли было изначально исключить ручное разбиение при проектировании таблицы orders?
+
+Ответ:
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/8d5d5c4b-7ed9-4662-b28b-d3fb5542e154)
+
+Можно:
+
+    CREATE RULE orders_insert_to_more AS ON INSERT TO orders WHERE ( price > 499 ) DO INSTEAD INSERT INTO orders_more_499_price VALUES (NEW.*);
+    CREATE RULE orders_insert_to_less AS ON INSERT TO orders WHERE ( price <= 499 ) DO INSTEAD INSERT INTO orders_less_499_price VALUES (NEW.*);
+
+
+# Задача 4
+
+Используя утилиту pg_dump, создайте бекап БД test_database.
+
+Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца title для таблиц test_database?
+
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/65cca57e-c40d-47cf-a203-4ce9189b7aaa)
+
+добавить индекс или первичный ключ:
+
+CREATE INDEX ON orders ((lower(title)));
+
+
+
+
 
 
 
