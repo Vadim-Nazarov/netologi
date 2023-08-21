@@ -33,7 +33,7 @@
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/cfda58c7-bf3c-4d3d-970f-864428aec5da)
 
-https://hub.docker.com/repository/docker/vadimn88
+[https://hub.docker.com/repository/docker/vadimn88](https://hub.docker.com/r/vadimn88/test/tags)
 
 
 
