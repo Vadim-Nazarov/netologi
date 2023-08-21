@@ -102,6 +102,23 @@ Gitlab-сервер для реализации CI/CD-процессов и пр
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/838eaa8d-d118-4257-806c-ad4257be8a76)
 
+# Задача 4
+
+Воспроизведите практическую часть лекции самостоятельно.
+
+Соберите Docker-образ с Ansible, загрузите на Docker Hub и пришлите ссылку вместе с остальными ответами к задачам.
+
+# Ответ 4
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/a8ba7cae-822e-4dd6-8b36-166d3961ad32)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/85cf2456-c8f6-497b-a801-4f2d8b18b7ee)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/7a026628-17e5-4a17-9e2c-19e4360b9444)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/9e19b937-5b68-4f3c-8595-c732ab128fc4)
+
+
 
 
 
