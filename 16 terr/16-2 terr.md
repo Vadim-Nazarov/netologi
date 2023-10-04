@@ -34,6 +34,7 @@
     Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: "netology-develop-platform-db" , cores = 2, memory = 2, core_fraction = 20. Объявите её переменные с префиксом vm_db_ в том же файле ('vms_platform.tf').
     Примените изменения.
 
+# Ответ 3
 Выкинул в файлик
     
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/5f382dde-ad88-4e2d-b077-55ba9cc54179)
@@ -47,6 +48,70 @@
 Итог
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/0b90166e-a56c-4759-b8dc-89bc93d5c1da)
+
+
+# Задание 4
+
+    Объявите в файле outputs.tf output типа map, содержащий { instance_name = external_ip } для каждой из ВМ.
+    Примените изменения.
+
+В качестве решения приложите вывод значений ip-адресов команды terraform output.
+
+# Ответ 4
+
+        output "VMS" {
+         value = {
+           instance_name = yandex_compute_instance.platform.name
+           external_ip  =  yandex_compute_instance.platform.network_interface.0.nat_ip_address
+           instance_name2 = yandex_compute_instance.platform2.name
+           external_ip2 =  yandex_compute_instance.platform2.network_interface.0.nat_ip_address
+           }
+        }
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/b3d380a2-6b63-4aef-baeb-9fb679027db5)
+
+# Задание 5
+
+    В файле locals.tf опишите в одном local-блоке имя каждой ВМ, используйте интерполяцию ${..} с несколькими переменными по примеру из лекции.
+    Замените переменные с именами ВМ из файла variables.tf на созданные вами local-переменные.
+    Примените изменения.
+
+# Ответ 5
+
+locals.tf
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/84b812c8-f0b3-4f43-9489-c3a176711a84)
+
+main.tf
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/9637c8be-10cc-4c16-9e34-5bdfad700b60)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/76208641-a767-4228-ad10-6c10c5a84c3c)
+
+variables.tf
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/63e03b31-570e-44af-9528-345e1957f5e3)
+
+Применил 
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/2ab32da1-6df5-4d0f-ad6d-5369405a2e3e)
+
+# Задание 6
+
+    Вместо использования трёх переменных ".._cores",".._memory",".._core_fraction" в блоке resources {...}, объедините их в переменные типа map с именами "vm_web_resources" и "vm_db_resources". В качестве продвинутой практики попробуйте создать одну map-переменную vms_resources и уже внутри неё конфиги обеих ВМ — вложенный map.
+    Также поступите с блоком metadata {serial-port-enable, ssh-keys}, эта переменная должна быть общая для всех ваших ВМ.
+    Найдите и удалите все более не используемые переменные проекта.
+    Проверьте terraform plan. Изменений быть не должно.
+
+# Ответ 6
+
+первая вм
+
+
+вторая вм
+
+
+
 
 
 
