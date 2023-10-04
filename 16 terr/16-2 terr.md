@@ -28,6 +28,31 @@
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/f8ddfca4-de7a-4426-91f2-840f236763c5)
 
+# Задание 3
+
+    Создайте в корне проекта файл 'vms_platform.tf' . Перенесите в него все переменные первой ВМ.
+    Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: "netology-develop-platform-db" , cores = 2, memory = 2, core_fraction = 20. Объявите её переменные с префиксом vm_db_ в том же файле ('vms_platform.tf').
+    Примените изменения.
+
+Выкинул в файлик
+    
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/5f382dde-ad88-4e2d-b077-55ba9cc54179)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/f7e24483-fca1-4958-af12-a18af64cc6b3)
+
+Добавил ВМ db
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/7e4fa993-4427-45b6-91e7-945e4de598b1)
+
+Итог
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/0b90166e-a56c-4759-b8dc-89bc93d5c1da)
+
+
+
+
+
+
 
 
 
