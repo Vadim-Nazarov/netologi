@@ -107,13 +107,76 @@ variables.tf
 
 первая вм
 
+        resource "yandex_compute_instance" "platform" {
+          name        = "${local.web}"
+        #  name        = "netology-develop-platform-web"
+          platform_id = "standard-v1"
+          resources {
+             cores         = var.vm_web_resources.cores
+             memory        = var.vm_web_resources.mem
+             core_fraction = var.vm_web_resources.frac
+        #    cores         = 2
+        #    memory        = 1
+        #    core_fraction = 5
+          }
+
+
 
 вторая вм
 
+        resource "yandex_compute_instance" "platform2" {
+           name        = "${local.db}"
+        #  name        = "netology-develop-platform-db"
+          platform_id = "standard-v1"
+          resources {
+             cores         = var.vm_db_resources.cores
+             memory        = var.vm_db_resources.mem
+             core_fraction = var.vm_db_resources.frac
+          }
 
 
+Блок metadata
+
+          metadata = {
+            serial-port-enable = var.vms_ssh_root_key.serial-port-enable
+            ssh-keys           = var.vms_ssh_root_key.ssh-keys
+          }
 
 
+variables.tf для метадата
+
+        variable "vms_ssh_root_key" {
+          type = map(any)
+          default = {
+           serial-port-enable   = 1
+           ssh-keys             = "ubuntu:ssh-rsa AAAAB3NzaC1yc2
+          }
+        }
+
+variables.tf для вм
+
+
+        variable "vm_web_resources" {
+          type = map(number)
+          default = {
+            cores          = 2
+            mem            = 1
+            frac           = 5
+         }
+        }
+
+        variable "vm_db_resources" {
+          type = map(number)
+          default = {
+            cores          = 2
+            mem            = 2
+            frac           = 20
+          }
+        }
+
+Итог 
+
+No changes. Your infrastructure matches the configuration.
 
 
 
