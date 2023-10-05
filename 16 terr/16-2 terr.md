@@ -70,6 +70,13 @@
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/b3d380a2-6b63-4aef-baeb-9fb679027db5)
 
+-------
+# Доработка ОТВЕТ 4
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/49ead906-e33b-41f8-9e33-2d2dac0c74cc)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/504ab695-87e5-427c-9bcf-ade2dc42e8e8)
+
 # Задание 5
 
     В файле locals.tf опишите в одном local-блоке имя каждой ВМ, используйте интерполяцию ${..} с несколькими переменными по примеру из лекции.
