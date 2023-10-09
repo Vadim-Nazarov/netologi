@@ -87,7 +87,7 @@
 
 locals.tf
 
-![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/84b812c8-f0b3-4f43-9489-c3a176711a84)
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/2228f372-2943-4317-8e2f-dbf303bf5e85)
 
 main.tf
 
@@ -97,7 +97,7 @@ main.tf
 
 variables.tf
 
-![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/63e03b31-570e-44af-9528-345e1957f5e3)
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/8bd9f6fa-0cd5-465a-b40e-0a575ff05395)
 
 Применил 
 
