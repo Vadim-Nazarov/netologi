@@ -70,16 +70,15 @@ variable "vms_ssh_root_key" {
 #  description = "fraction"
 #}
 
-variable "vm_web_web" {
-  type        = string
-  default     = "netology-develop-platform-web"
-  description = "vm1 name"
+variable "vm_naznach" {
+  type    = list(string)
+  default = ["web", "db"]
 }
 
-variable "vm_web_db" {
+variable "vm_name" {
   type        = string
-  default     = "netology-develop-platform-db"
-  description = "vm2 name"
+  default     = "netology-develop-platform"
+  description = "name for instance"
 }
 
 variable "vm_web_resources" {
