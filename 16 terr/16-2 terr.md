@@ -87,7 +87,7 @@
 
 locals.tf
 
-![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/2228f372-2943-4317-8e2f-dbf303bf5e85)
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/8f264cae-31be-40a8-8dd2-62a57ae8adfe)
 
 main.tf
 
