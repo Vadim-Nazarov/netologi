@@ -11,19 +11,14 @@ resource "yandex_vpc_subnet" "develop" {
 
 data "yandex_compute_image" "ubuntu" {
    family = var.vm_web_image
-#  family = "ubuntu-2004-lts"
 }
 resource "yandex_compute_instance" "platform" {
   name        = local.web
-#  name        = "netology-develop-platform-web"
   platform_id = "standard-v1"
   resources {
      cores	   = var.vm_web_resources.cores
      memory        = var.vm_web_resources.mem
      core_fraction = var.vm_web_resources.frac
-#    cores         = 2
-#    memory        = 1
-#    core_fraction = 5
   }
 
   boot_disk {
@@ -51,9 +46,8 @@ data "yandex_compute_image" "ubuntu2" {
 }
 resource "yandex_compute_instance" "platform2" {
    name        = local.db
-#  name        = "netology-develop-platform-db"
-  platform_id = "standard-v1"
-  resources {
+   platform_id = "standard-v1"
+   resources {
      cores         = var.vm_db_resources.cores
      memory        = var.vm_db_resources.mem
      core_fraction = var.vm_db_resources.frac

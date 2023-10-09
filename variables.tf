@@ -42,34 +42,6 @@ variable "vms_ssh_root_key" {
   }
 }
 
-###yandex_compute_image vars
-
-#variable "vm_web_image" {
-#  type        = string
-#  default     = "ubuntu-2004-lts"
-#  description = "ubuntu release name"
-#}
-
-###yandex_compute_instance vars
-
-#variable "vm_web_cores" {
-#  type        = number
-#  default     = 2
-#  description = "cores"
-#}
-
-#variable "vm_web_mem" {
-#  type        = number
-#  default     = 1
-#  description = "memory"
-#}
-
-#variable "vm_web_frac" {
-#  type        = number
-#  default     = 5
-#  description = "fraction"
-#}
-
 variable "vm_naznach" {
   type    = list(string)
   default = ["web", "db"]
