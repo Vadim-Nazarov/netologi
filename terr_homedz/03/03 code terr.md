@@ -29,5 +29,15 @@
 
 # Задание 4
 
+    [webservers]
+    web-1   ansible_host=158.160.127.175
+    web-2   ansible_host=51.250.67.6
+    
+    [databases]
+    main   ansible_host=51.250.72.155
+    replica   ansible_host=158.160.124.143
+
+    [storage]
+    storage   ansible_host=158.160.120.168
 
 
