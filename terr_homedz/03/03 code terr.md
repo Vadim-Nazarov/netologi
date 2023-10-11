@@ -20,3 +20,11 @@
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/e1577364-d9a9-4a6d-9196-dccd95383730)
 
+# Задание 3
+* Минимально создаваемый диск  5 ГБ
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/793824c5-2dd6-4e16-b559-8a41d9b9053b)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/a8b123be-591c-4b6d-a295-5c6a62248a0a)
+
+  
