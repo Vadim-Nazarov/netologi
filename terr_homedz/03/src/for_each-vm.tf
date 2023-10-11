@@ -1,7 +1,7 @@
 variable "vm_resource" {
   type = list(object({ vm_name = string, cpu = number, ram = number, disk = number, core_fraction = number }))
   default = [
-    { vm_name = "main", cpu = 4, ram = 3, disk = 20 , core_fraction = 10 },
+    { vm_name = "main", cpu = 4, ram = 2, disk = 20 , core_fraction = 20 },
     { vm_name = "replica", cpu = 2, ram = 2, disk = 15, core_fraction = 5 }
   ]
 }

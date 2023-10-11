@@ -40,7 +40,7 @@ variable "vm_min_resource" {
     resources = {
       cores         = 2
       ram           = 2
-      core_fraction = 10
+      core_fraction = 5
     }
   }
 }
