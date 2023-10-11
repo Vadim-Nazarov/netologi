@@ -30,3 +30,17 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+
+variable "vm_min_resource" {
+  type = object({ platform = string, disk_type = string, disk_size = number, resources = map(number) })
+  default = {
+    platform  = "standard-v1"
+    disk_type = "network-hdd"
+    disk_size = 5
+    resources = {
+      cores         = 2
+      ram           = 2
+      core_fraction = 10
+    }
+  }
+}
