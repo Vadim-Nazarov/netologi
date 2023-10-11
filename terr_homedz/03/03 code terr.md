@@ -14,3 +14,9 @@
 # Ответ 1
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/95bd1c5a-f8ee-48e6-b3ba-8afd8fb87581)
+
+
+# Задание 2
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/e1577364-d9a9-4a6d-9196-dccd95383730)
+
