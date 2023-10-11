@@ -20,3 +20,24 @@
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/e1577364-d9a9-4a6d-9196-dccd95383730)
 
+# Задание 3
+* Минимально создаваемый диск  5 ГБ
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/793824c5-2dd6-4e16-b559-8a41d9b9053b)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/a8b123be-591c-4b6d-a295-5c6a62248a0a)
+
+# Задание 4
+
+    [webservers]
+    web-1   ansible_host=158.160.127.175
+    web-2   ansible_host=51.250.67.6
+    
+    [databases]
+    main   ansible_host=51.250.72.155
+    replica   ansible_host=158.160.124.143
+
+    [storage]
+    storage   ansible_host=158.160.120.168
+
+
