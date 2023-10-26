@@ -12,7 +12,7 @@
       "vpc_network_id" = "enpme4dr16ive32r4amq"
         "vpc_network_name" = "develop"
         "vpc_subnet_cidr" = tolist(["10.0.1.0/24",])
-        "vpc_subnet_id" = "e9brfuftvo8u4q658gf0"
+        "vpc_subnet_id" = "e6srduftvo8u4q765gf0"
         "vpc_subnet_name" = "develop"
         "vpc_zone" = "ru-central1-a"
       }
