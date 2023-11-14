@@ -27,4 +27,4 @@ playbook устанавливает clichouse и vector на две виртуа
 
         ansible-playbook -i inventory/prod.yml site.yml
 
-[Ссылка на код](https://github.com/Vadim-Nazarov/netologi/tree/main/ans/08-ansible-02-playbook/playbook)
+#[Ссылка на код](https://github.com/Vadim-Nazarov/netologi/tree/main/ans/08-ansible-02-playbook/playbook)
