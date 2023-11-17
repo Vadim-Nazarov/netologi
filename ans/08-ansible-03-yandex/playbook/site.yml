@@ -92,6 +92,9 @@
         name: nginx
         state: restarted
   tasks:
+    - name: install EPEL repo
+      become: yes
+      yum: name=epel-release state=present
     - name: Install nginx
       become: true
       ansible.builtin.yum:
