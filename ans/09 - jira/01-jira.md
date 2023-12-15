@@ -44,7 +44,8 @@
 
 # Ответ
 
-    ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/c2a501bf-1261-4062-9851-008b93525b95)
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/d63c79db-dbb8-4a88-b924-0a9ab2b7844f)
+
 
 [workflow.xml](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/09%20-%20jira/workflow.xml)
     
