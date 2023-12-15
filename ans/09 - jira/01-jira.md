@@ -46,6 +46,7 @@
 
     ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/c2a501bf-1261-4062-9851-008b93525b95)
 
+[workflow.xml](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/09%20-%20jira/workflow.xml)
     
 
 
