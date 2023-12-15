@@ -48,6 +48,11 @@
 
 
 [workflow.xml](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/09%20-%20jira/workflow.xml)
-    
+
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/0a5bb972-3f0a-45cb-9b3d-900a82569289)
+
+
+[workflow general.xml](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/09%20-%20jira/workflow%20general.xml)
 
 
