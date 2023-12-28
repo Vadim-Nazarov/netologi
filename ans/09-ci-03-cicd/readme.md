@@ -80,6 +80,13 @@ Nexus
 [maven-metadata.xml](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/09-ci-03-cicd/maven-metadata.xml)
 
 
+Знакомство с Maven
+---
+Выполнено
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/0909c238-733e-4ddf-8080-b8e9e0f632bc)
+
+[pom.xml](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/09-ci-03-cicd/pom.xml)
 
 
 
