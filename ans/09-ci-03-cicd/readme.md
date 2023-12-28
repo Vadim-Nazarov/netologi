@@ -72,6 +72,12 @@ Nexus
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/6395cfa8-67a3-40ab-a599-23968421c6a9)
 
+Знакомство с Nexus
+---
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/d0eda2cc-e10e-459c-aa65-eaae7d5b9c31)
+
+[maven-metadata.xml](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/09-ci-03-cicd/maven-metadata.xml)
 
 
 
