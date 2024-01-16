@@ -23,6 +23,26 @@
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/2980cbfc-9962-4cd3-a927-85aa8818c798)
 
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/8090e5b2-d6e7-4568-a0eb-214bd951a73c)
+
+approved script 
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/688beb0d-87fe-4aa5-a6ea-da62fa0bcad7)
+
+На мастере - ставим ноль
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/a78bbeb5-b444-4977-b92c-d9e9ddc8aa40)
+
+Видим на агенте 2
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/4c0ffa67-1c89-4ba4-b56a-ad98ace1e7dd)
+
+Плагины
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/4a7a2603-1ea6-4dbb-811c-b3ce80e0240f)
+
+
+
 
 
 
