@@ -35,6 +35,36 @@
 
 ![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/0d01cfc9-2e8e-4a73-a036-18014d8f7c09)
 
+- CPULA
 
+    - node_load1{instance="nodeexporter:9100"}
+    - node_load5{instance="nodeexporter:9100"}
+    - node_load15{instance="nodeexporter:9100"}
 
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/378db6c8-d1f2-4b36-b8b9-d0828c34bd92)
+
+- количество свободной оперативной памяти
   
+ node_memory_MemFree_bytes{instance="nodeexporter:9100",job="nodeexporter"}
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/d9f2813c-3ec8-4a2b-acd9-84af6a905d9b)
+
+- количество места на файловой системе
+
+node_filesystem_free_bytes{device="/dev/mapper/centos-root",instance="nodeexporter:9100",job="nodeexporter"}
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/dda19d5e-241b-455a-bac7-2e737b3bb2fd)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/20abc0ee-46c1-45da-b3e7-ccbb1ecefa0e)
+
+# Задание 3
+
+    Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
+    В качестве решения задания приведите скриншот вашей итоговой Dashboard.
+
+# Ответ 3
+
+
+
+
+
