@@ -74,6 +74,6 @@ node_filesystem_free_bytes{device="/dev/mapper/centos-root",instance="nodeexport
     Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
     В качестве решения задания приведите листинг этого файла.
 
-[сылка](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/%20%20%20%2010-monitoring-03-grafana/dashboard.json)
+[ссылка на файл](https://github.com/Vadim-Nazarov/netologi/blob/main/ans/%20%20%20%2010-monitoring-03-grafana/dashboard.json)
 
 
