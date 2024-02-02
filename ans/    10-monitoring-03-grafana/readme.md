@@ -64,6 +64,15 @@ node_filesystem_free_bytes{device="/dev/mapper/centos-root",instance="nodeexport
 
 # Ответ 3
 
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/3cd82825-37d2-47b5-8271-d6ba8890123f)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/0e68fd26-e6e4-410f-b147-a5fa76b3f7df)
+
+![изображение](https://github.com/Vadim-Nazarov/netologi/assets/107613708/0b3460f3-661d-476b-a7c1-288c1195170f)
+
+# Задание 4
+    Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
+    В качестве решения задания приведите листинг этого файла.
 
 
 
