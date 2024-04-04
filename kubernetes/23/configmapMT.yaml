@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+ name: configmap
+ namespace: default
+data:
+ ng: '8080'
+ mt: '8081'
+
+
