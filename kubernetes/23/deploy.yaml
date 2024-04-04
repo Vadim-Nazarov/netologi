@@ -19,6 +19,9 @@ spec:
       - image: nginx:1.14.2
         name: nginx
         imagePullPolicy: IfNotPresent
+        volumeMounts:
+          - name: conf
+            mountPath: /usr/share/nginx/html
       - image: wbitt/network-multitool
         name: multitool
         imagePullPolicy: IfNotPresent
@@ -33,3 +36,7 @@ spec:
               configMapKeyRef:
                 name: configmap
                 key: mt
+      volumes:
+      - name: conf
+        configMap:
+          name: conf
