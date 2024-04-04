@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: conf
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+     <head>
+      <title>MY FIRST SITE</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+     <body>
+
+      <h1>TESTTTTTTTTTTTTTT</h1>
+
+      </body>
+    </html>
