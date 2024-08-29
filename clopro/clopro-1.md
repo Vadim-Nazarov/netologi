@@ -31,3 +31,35 @@ Resource Terraform для Yandex Cloud:
 
 ### Ответ 1.
 
+Пустая VPC
+
+![изображение](https://github.com/user-attachments/assets/78bd2ec3-2f83-4241-8983-d9eeb76ccf79)
+
+Публичная подсеть
+
+![изображение](https://github.com/user-attachments/assets/4bcad42e-c755-4b3a-ba80-f75c920280e1)
+
+NAT instance и ВМ
+
+![изображение](https://github.com/user-attachments/assets/2105099f-475b-4ba1-819e-d2d87caa10f2)
+
+Проверка доступа к интернету из ВМ в подсети pablic
+
+![изображение](https://github.com/user-attachments/assets/5531129e-716c-40d8-9937-984865c75c3c)
+
+Таблица маршрутизации
+
+![изображение](https://github.com/user-attachments/assets/1fd554a0-6a7f-4b76-a3dd-57315763e3db)
+
+Проверка доступности к интернету из private подсети
+
+![изображение](https://github.com/user-attachments/assets/e2a8edaf-c635-40ee-a4df-46feed3b54fc)
+
+
+
+[Terraform](https://github.com/Vadim-Nazarov/netologi/tree/main/clopro/manifests)
+
+
+
+
+
