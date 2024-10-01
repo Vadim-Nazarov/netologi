@@ -51,6 +51,38 @@
 
 ![изображение](https://github.com/user-attachments/assets/8519dab6-b39a-4c17-a5a0-5196c20a531b)
 
+### Создание Kubernetes кластера
+
+На этом этапе необходимо создать [Kubernetes](https://kubernetes.io/ru/docs/concepts/overview/what-is-kubernetes/) кластер на базе предварительно созданной инфраструктуры.   Требуется обеспечить доступ к ресурсам из Интернета.
+
+Это можно сделать двумя способами:
+
+1. Рекомендуемый вариант: самостоятельная установка Kubernetes кластера.  
+   а. При помощи Terraform подготовить как минимум 3 виртуальных машины Compute Cloud для создания Kubernetes-кластера. Тип виртуальной машины следует выбрать самостоятельно с учётом требовании к производительности и стоимости. Если в дальнейшем поймете, что необходимо сменить тип инстанса, используйте Terraform для внесения изменений.  
+   б. Подготовить [ansible](https://www.ansible.com/) конфигурации, можно воспользоваться, например [Kubespray](https://kubernetes.io/docs/setup/production-environment/tools/kubespray/)  
+   в. Задеплоить Kubernetes на подготовленные ранее инстансы, в случае нехватки каких-либо ресурсов вы всегда можете создать их при помощи Terraform.
+2. Альтернативный вариант: воспользуйтесь сервисом [Yandex Managed Service for Kubernetes](https://cloud.yandex.ru/services/managed-kubernetes)  
+  а. С помощью terraform resource для [kubernetes](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/kubernetes_cluster) создать **региональный** мастер kubernetes с размещением нод в разных 3 подсетях      
+  б. С помощью terraform resource для [kubernetes node group](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/kubernetes_node_group)
+
+# ОТВЕТ Создание Kubernetes кластера
+
+Для развертывания использую Kubespray по пути 1-б
+
+Клоним репозиторий git clone https://github.com/kubernetes-sigs/kubespray.git
+
+При создании облачной инфрасруктуры создали файл hosts.yaml для ansible плейбука
+
+Выполняем запуск плейбука kubespray   root@admin1-VirtualBox:~/dip/kubespray# ansible-playbook -i /root/dip/ansible/inventory/hosts.yaml cluster.yml -b
+
+Результат отработки плейбука
+
+![изображение](https://github.com/user-attachments/assets/3cd8d743-be6d-43b5-9c46-13aade78d39a)
+
+Проверяем на master
+
+![изображение](https://github.com/user-attachments/assets/092c94d1-d4bd-4fe7-8040-0eca767c1fcc)
+
 
 
 
