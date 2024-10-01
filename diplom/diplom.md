@@ -35,7 +35,7 @@
 1. Terraform сконфигурирован и создание инфраструктуры посредством Terraform возможно без дополнительных ручных действий.
 2. Полученная конфигурация инфраструктуры является предварительной, поэтому в ходе дальнейшего выполнения задания возможны изменения.
 
-# ОТВЕТ Создание облачной инфраструктуры
+# 1 ОТВЕТ Создание облачной инфраструктуры
 
 Конфигурация Terraform 
 
@@ -65,7 +65,7 @@
   а. С помощью terraform resource для [kubernetes](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/kubernetes_cluster) создать **региональный** мастер kubernetes с размещением нод в разных 3 подсетях      
   б. С помощью terraform resource для [kubernetes node group](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/kubernetes_node_group)
 
-# ОТВЕТ Создание Kubernetes кластера
+# 2 ОТВЕТ Создание Kubernetes кластера
 
 Для развертывания использую Kubespray по пути 1-б
 
@@ -73,7 +73,9 @@
 
 При создании облачной инфрасруктуры создали файл [hosts.yaml](https://github.com/Vadim-Nazarov/netologi/blob/main/diplom/ansible/inventory/hosts.yaml) для ansible плейбука
 
-Выполняем запуск плейбука kubespray   root@admin1-VirtualBox:~/dip/kubespray# ansible-playbook -i /root/dip/ansible/inventory/hosts.yaml cluster.yml -b
+Выполняем запуск плейбука kubespray   
+
+      root@admin1-VirtualBox:~/dip/kubespray# ansible-playbook -i /root/dip/ansible/inventory/hosts.yaml cluster.yml -b
 
 Результат отработки плейбука
 
