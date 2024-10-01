@@ -71,7 +71,7 @@
 
 Клоним репозиторий git clone https://github.com/kubernetes-sigs/kubespray.git
 
-При создании облачной инфрасруктуры создали файл hosts.yaml для ansible плейбука
+При создании облачной инфрасруктуры создали файл [hosts.yaml](https://github.com/Vadim-Nazarov/netologi/blob/main/diplom/ansible/inventory/hosts.yaml) для ansible плейбука
 
 Выполняем запуск плейбука kubespray   root@admin1-VirtualBox:~/dip/kubespray# ansible-playbook -i /root/dip/ansible/inventory/hosts.yaml cluster.yml -b
 
