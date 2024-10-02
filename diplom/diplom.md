@@ -85,6 +85,54 @@
 
 ![изображение](https://github.com/user-attachments/assets/092c94d1-d4bd-4fe7-8040-0eca767c1fcc)
 
+### Создание тестового приложения
+
+Для перехода к следующему этапу необходимо подготовить тестовое приложение, эмулирующее основное приложение разрабатываемое вашей компанией.
+
+Способ подготовки:
+
+1. Рекомендуемый вариант:  
+   а. Создайте отдельный git репозиторий с простым nginx конфигом, который будет отдавать статические данные.  
+   б. Подготовьте Dockerfile для создания образа приложения.  
+2. Альтернативный вариант:  
+   а. Используйте любой другой код, главное, чтобы был самостоятельно создан Dockerfile.
+
+Ожидаемый результат:
+
+1. Git репозиторий с тестовым приложением и Dockerfile.
+2. Регистри с собранным docker image. В качестве регистри может быть DockerHub или [Yandex Container Registry](https://cloud.yandex.ru/services/container-registry), созданный также с помощью terraform.
+
+# 3 ОТВЕТ Создание тестового приложения
+
+Создал [index.html](https://github.com/Vadim-Nazarov/netologi/blob/main/diplom/app/index.html) 
+
+[Dockerfile](https://github.com/Vadim-Nazarov/netologi/blob/main/diplom/app/Dockerfile)
+
+Собрал образ 
+
+![изображение](https://github.com/user-attachments/assets/24a32442-32f5-44a7-9ae4-f17b18cb8fbc)
+
+Запустил контейнер
+
+![изображение](https://github.com/user-attachments/assets/3d6d3124-9cd0-4374-9207-d09128104b7f)
+
+![изображение](https://github.com/user-attachments/assets/14bbe8ab-ac0d-46d9-a88a-1c6aa2780963)
+
+![изображение](https://github.com/user-attachments/assets/e58b7a97-810a-4ba2-9bff-5cecfbfbd054)
+
+Запушил в Dockerhub
+
+![изображение](https://github.com/user-attachments/assets/b1bb0285-0fb1-466e-b074-9276a94511d0)
+
+![изображение](https://github.com/user-attachments/assets/da610b30-4c97-45e2-a9c7-41347ee0b787)
+
+
+
+
+
+
+
+
 
 
 
