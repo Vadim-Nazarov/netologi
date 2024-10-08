@@ -1,33 +1,22 @@
+
 all:
   hosts:
     master:
-      ansible_host: 89.169.135.199
+      ansible_host: 89.169.134.37
       ip: 10.0.1.10
       access_ip: 10.0.1.10
       ansible_user: ubuntu
       ansible_ssh_common_args: "-i /root/.ssh/id_rsa"
     node1:
-      ansible_host: 89.169.174.106
+      ansible_host: 158.160.18.237
       ip: 10.0.2.11
       access_ip: 10.0.2.11
       ansible_user: ubuntu
       ansible_ssh_common_args: "-i /root/.ssh/id_rsa"
     node2:
-      ansible_host: 84.201.150.246
-      ip: 10.0.3.12
-      access_ip: 10.0.3.12
-      ansible_user: ubuntu
-      ansible_ssh_common_args: "-i /root/.ssh/id_rsa"
-    teamcity-server:
-      ansible_host: 89.169.158.220
-      ip: 10.0.1.44
-      access_ip: 10.0.1.44
-      ansible_user: ubuntu
-      ansible_ssh_common_args: "-i /root/.ssh/id_rsa"
-    teamcity-agent:
-      ansible_host: 51.250.14.105
-      ip: 10.0.1.34
-      access_ip: 10.0.1.34
+      ansible_host: 84.252.133.28
+      ip: 10.0.3.11
+      access_ip: 10.0.3.11
       ansible_user: ubuntu
       ansible_ssh_common_args: "-i /root/.ssh/id_rsa"
   children:
