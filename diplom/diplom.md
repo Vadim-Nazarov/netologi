@@ -140,7 +140,7 @@ sudo kubectl apply -f manifests/
 
 ![изображение](https://github.com/user-attachments/assets/083d1e3e-2238-432f-8389-fb9d49a926b8)
 
-Сетевая политика применена
+[Сетевая политика](https://github.com/Vadim-Nazarov/netologi/blob/main/diplom/app/grafana-s.yml) применена
 
 ![изображение](https://github.com/user-attachments/assets/d192f3bd-e19a-4cd6-b3f3-932f6317ea68)
 
