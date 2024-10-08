@@ -60,29 +60,27 @@ variable "public_resources_node" {
   type = map(number)
   default = {
     cores          = 2
-    memory         = 2
-    core_fraction  = 20
-    size           = 40
- }
-}
-
-
-variable "teamcity_resources_server" {
-  type = map(number)
-  default = {
-    cores          = 2
     memory         = 4
-    core_fraction  = 100
+    core_fraction  = 20
     size           = 60
  }
 }
 
-variable "teamcity_resources_agent" {
-  type = map(number)
-  default = {
-    cores          = 2
-    memory         = 2
-    core_fraction  = 20
-    size           = 60
- }
+
+# Определение списка нод
+locals {
+  nodes = {
+    "node1" = {
+      zone      = var.default_zone_b
+      subnet_id = "central1-b"
+      ip_offset = 2
+      ssh_key   = var.ssh_public_key_path
+    },
+    "node2" = {
+      zone      = var.default_zone_d
+      subnet_id = "central1-d"
+      ip_offset = 3
+      ssh_key   = var.ssh_public_key_path
+    }
+  }
 }
