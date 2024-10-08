@@ -148,7 +148,7 @@ sudo kubectl apply -f manifests/
 
 ![изображение](https://github.com/user-attachments/assets/241eb2ec-dde9-452f-be99-bd51414e0e0e)
 
-Далее задиплоем наше приложение в кластере Kubernetes
+Далее [задиплоем](https://github.com/Vadim-Nazarov/netologi/blob/main/diplom/app/depl_nginx.yml) наше приложение в кластере Kubernetes
 
 ![изображение](https://github.com/user-attachments/assets/3cf49770-33d9-4c1f-855e-60bd3c18e501)
 
