@@ -43,13 +43,12 @@
 
 результат terraform apply:
 
-![изображение](https://github.com/user-attachments/assets/f42984e8-04a7-41f4-af2e-4ddff8f3ca38)
+![изображение](https://github.com/user-attachments/assets/335acc57-51ef-444a-93bc-4d242d80314f)
 
-![изображение](https://github.com/user-attachments/assets/4ffabdc5-af99-4ed3-9516-d6d0e39af58d)
+![изображение](https://github.com/user-attachments/assets/8e4a44c9-2d25-4198-ba59-311e80719e75)
 
-![изображение](https://github.com/user-attachments/assets/3f9aa714-6500-4e66-a17c-84745bed62e3)
+![изображение](https://github.com/user-attachments/assets/0020fa39-081a-48dd-a451-c2293d1196e6)
 
-![изображение](https://github.com/user-attachments/assets/8519dab6-b39a-4c17-a5a0-5196c20a531b)
 
 ### Создание Kubernetes кластера
 
@@ -110,21 +109,69 @@
 
 Собрал образ 
 
-![изображение](https://github.com/user-attachments/assets/24a32442-32f5-44a7-9ae4-f17b18cb8fbc)
+![изображение](https://github.com/user-attachments/assets/95156190-67f4-470c-9fc9-12f5ff8f4951)
+
 
 Запустил контейнер
 
-![изображение](https://github.com/user-attachments/assets/3d6d3124-9cd0-4374-9207-d09128104b7f)
+![изображение](https://github.com/user-attachments/assets/1008069d-dccb-43ed-8521-67a3320a9fbf)
 
-![изображение](https://github.com/user-attachments/assets/14bbe8ab-ac0d-46d9-a88a-1c6aa2780963)
+![изображение](https://github.com/user-attachments/assets/b092a74c-bc67-462b-b89e-42a36c05e3cc)
 
-![изображение](https://github.com/user-attachments/assets/e58b7a97-810a-4ba2-9bff-5cecfbfbd054)
 
 Запушил в Dockerhub
 
-![изображение](https://github.com/user-attachments/assets/b1bb0285-0fb1-466e-b074-9276a94511d0)
+![изображение](https://github.com/user-attachments/assets/58c1eb12-549a-4a71-aca5-e02e73b0c696)
 
-![изображение](https://github.com/user-attachments/assets/da610b30-4c97-45e2-a9c7-41347ee0b787)
+![изображение](https://github.com/user-attachments/assets/f9387b08-18d7-41de-b16d-9075de55890f)
+
+## Подготовка cистемы мониторинга и деплой приложения
+
+Развернем систему мониторинга с помощью Kube-Prometheus
+
+Клонируем на мастер репозиторий
+
+      git clone https://github.com/prometheus-operator/kube-prometheus.git
+
+sudo kubectl apply --server-side -f manifests/setup
+sudo kubectl apply -f manifests/
+
+![изображение](https://github.com/user-attachments/assets/5c9d9a1e-c68d-4066-8a85-823272059049)
+
+![изображение](https://github.com/user-attachments/assets/083d1e3e-2238-432f-8389-fb9d49a926b8)
+
+Сетевая политика применена
+
+![изображение](https://github.com/user-attachments/assets/d192f3bd-e19a-4cd6-b3f3-932f6317ea68)
+
+Можно зайти в Grafana можно по любому из адресов node1, node2, master
+
+![изображение](https://github.com/user-attachments/assets/241eb2ec-dde9-452f-be99-bd51414e0e0e)
+
+Далее задиплоем наше приложение в кластере Kubernetes
+
+![изображение](https://github.com/user-attachments/assets/3cf49770-33d9-4c1f-855e-60bd3c18e501)
+
+при переходе по любому адресу нод видим состояние, порт задан в диплойменте
+
+http://158.160.18.237:30080/
+
+http://89.169.134.37:30080/
+
+http://84.252.133.28:30080/
+
+![изображение](https://github.com/user-attachments/assets/27426d9f-65cf-49f4-9c86-499cf847a49b)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
