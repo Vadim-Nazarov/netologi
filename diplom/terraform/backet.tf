@@ -41,7 +41,7 @@ resource "yandex_kms_symmetric_key" "key-a" {
     prevent_destroy = false
   }
 }
- 
+
 # Создаем бэкэнд хранилище (с шифрованием данных)
 resource "yandex_storage_bucket" "backend-encrypted" {
   bucket     = "nazarov-diplom-bucket-2024"
@@ -61,4 +61,16 @@ resource "yandex_storage_bucket" "backend-encrypted" {
       }
     }
   }
+}
+
+
+# Добавляем обьект в бакет
+resource "yandex_storage_object" "object-1" {
+    access_key = yandex_iam_service_account_static_access_key.sa-static-key.access_key
+    secret_key = yandex_iam_service_account_static_access_key.sa-static-key.secret_key
+    bucket = yandex_storage_bucket.backend-encrypted.bucket
+    key = "terraform.tfstate"
+    source = "terraform.tfstate"
+    acl    = "private"
+    depends_on = [yandex_storage_bucket.backend-encrypted]
 }
